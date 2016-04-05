@@ -1,0 +1,228 @@
+/*
+------------------------------
+horizontally spaced
+------------------------------
+*/
+.hcenter {
+    text-align: center;
+}
+
+.hcenter img, p, ol {
+    display: inline-block;
+    padding: 10px;
+}
+
+ol li {
+    margin-left: 15px;
+}
+
+/*
+------------------------------
+vertically spaced 
+------------------------------
+*/
+.block {
+    display: block;
+}
+
+.vcenter {
+  padding: 125px 0;
+}
+
+
+/*
+------------------------------
+horizontal list
+------------------------------
+*/
+
+.inline li {
+    display: inline;
+}
+
+/*
+------------------------------
+buttons
+------------------------------
+*/
+
+.btn {
+    background-color: #E9838A;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 29%;
+}
+
+.btn-large {
+    width: 200px;
+    height: 60px;
+}
+
+.btn-med {
+    width: 180px;
+    height: 40px;
+    position:relative;
+}
+
+.btn-small {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+/*
+------------------------------
+navigation
+------------------------------
+*/
+
+.nav {
+    background: #E9838A;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nav ul li {
+    display: inline;
+    margin-left: auto;
+    padding-left: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+/*
+------------------------------
+pagination
+------------------------------
+*/
+
+.page {
+}
+
+.page li {
+    list-style-type: none;
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    padding-left: 10px;
+    border-bottom: 3px solid #E9838A;
+}
+
+.page a {
+    color: #E9838A;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.page li:first-child, li:last-child {
+    border-bottom: none;
+}
+
+#nope {
+    border-bottom: 3px solid #ccc;
+}
+
+.page span {
+    color: #ccc;
+    padding-bottom: 5px;
+}
+
+/*
+------------------------------
+comment stream
+------------------------------
+*/
+
+time {
+    font-size: 14px;
+    color: #bcbcbc;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+.comments p {
+    width:80%;
+}
+
+.comments time, strong {
+    display: inline-block;
+}
+
+.inset {
+    margin-left: 90px;
+}
+
+/*
+------------------------------
+tabs
+------------------------------
+*/
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tabs {
+    border: 1px solid blue;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.foreground {
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-top: -6px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.focus {
+    border: 1px solid blue;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.inline a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.inline li div {
+    display: inline;
+    padding: 15px;
+}
+
+/*
+------------------------------
+floats & clear
+------------------------------
+*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
